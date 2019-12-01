@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Thomas",
+      "last_name": "Nguyen"
+    },
+    {
+      "id": 2,
+      "first_name": "Jet",
+      "last_name": "Li"
+    },
+    {
+      "id": 3,
+      "first": "Bruce",
+      "last": "Lee"
+    },
+    {
+      "id": 4,
+      "first": "Donnie",
+      "last": "Yen"
+    },
+    {
+      "id": 5,
+      "first": "Jackie",
+      "last": "Chan"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "movie": "Thomas with No Movie"
+    },
+    {
+      "id": 2,
+      "movie": "Fearless"
+    },
+    {
+      "id": 3,
+      "movie": "Enter the Dragon"
+    },
+    {
+      "id": 4,
+      "movie": "Ip Man"
+    },
+    {
+      "id": 5,
+      "movie": "Drunken Master"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -29,23 +29,23 @@
   "movies": [
     {
       "id": 1,
-      "movie": "Thomas with No Movie"
+      "title": "Thomas with No Movie"
     },
     {
       "id": 2,
-      "movie": "Fearless"
+      "title": "Fearless"
     },
     {
       "id": 3,
-      "movie": "Enter the Dragon"
+      "title": "Enter the Dragon"
     },
     {
       "id": 4,
-      "movie": "Ip Man"
+      "title": "Ip Man"
     },
     {
       "id": 5,
-      "movie": "Drunken Master"
+      "title": "Drunken Master"
     }
   ],
   "profile": {

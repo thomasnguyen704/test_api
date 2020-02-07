@@ -1,59 +1,145 @@
 {
-  "users": [
+  "customers": [
     {
-      "id": 1,
-      "first_name": "Thomas",
-      "last_name": "Nguyen"
-    },
-    {
-      "id": 2,
-      "first_name": "Jet",
-      "last_name": "Li"
-    },
-    {
-      "id": 3,
-      "first": "Bruce",
-      "last": "Lee"
-    },
-    {
-      "id": 4,
-      "first": "Donnie",
-      "last": "Yen"
-    },
-    {
-      "id": 5,
-      "first": "Jackie",
-      "last": "Chan"
+      "Requires_Review": "Yes",
+      "Customer": "Bruce Wayne",
+      "Obligor_Number": "12345",
+      "Total_LIBOR_Exposure": 6500000000.00,
+      "Total_Relationship_Value": 9000000000.00,
+      "Total_Loan_Amount": 8000000000.00,
+      "Total_Deposit_Amount": 1000000000.00,
+      "Total_SWAP_Notional": 6500000000.00,
+      "Number_of_LIBOR_Contracts": 4,
+      "OSCAR_Flagged": 4,
+      "Reviewed_Items": 3,
+      "Confirmed_Non_Compliant": "Loan 1, Loan 2, Loan 3",
+      "Outstanding_Remediation_Work_Items": "Item 1, Item 2, Item 3",
+      "Relationship_Length": "89",
+      "Nearest_Maturity_Date": "02/26/2020",
+      "loans": [
+        {
+          "Contract_Status": "Non Compliant",
+          "RM_Name": "Jane Doe",
+          "Underwritter": "John Doe",
+          "Business_Unit": "Commercial Lending",
+          "Customer": "Bruce Wayne",
+          "SNC": "Yes",
+          "SNC_Type": "Participant",
+          "Maturity_Date": "02/26/2020",
+          "Risk_Rating": 4.3,
+          "PAM": "No",
+          "Obligor_Number": "12345",
+          "LIBOR_Obligation_Number": "Loan_5678",
+          "Loan_Amount": 4500000000,
+          "Document_Type": "Credit Agreement",
+          "Review_Status": "Complete",
+          "Digital_Text": "link",
+          "Original_File": "link",
+          "Reviwer_Notes": "This is a note from a Reviwer",
+          "RM_Status": "In Progress",
+          "RM_Notes": "This is a note from a RM",
+          "work_item": {
+            "Work_Type": "Loan",
+            "Customer": "Bruce Wayne from work item",
+            "Status": "Open",
+            "Assignee": "Thomas Nguyen",
+            "Notes": "A note for work1",
+            "Obligor_Number": "12345",
+            "id": 11
+          }
+        },
+        {
+          "Contract_Status": "Non Compliant",
+          "RM_Name": "John Cleese",
+          "Underwritter": "Terry Gilliam",
+          "Business_Unit": "Commercial Lending",
+          "Customer": "Bruce Wayne",
+          "SNC": "Yes",
+          "SNC_Type": "Participant",
+          "Maturity_Date": "05/02/2024",
+          "Risk_Rating": 4.3,
+          "PAM": "No",
+          "Obligor_Number": "12345",
+          "LIBOR_Obligation_Number": "Loan_1234",
+          "Loan_Amount": 1000000000,
+          "Document_Type": "Amendment",
+          "Review_Status": "Complete",
+          "Digital_Text": "link",
+          "Original_File": "link",
+          "Reviwer_Notes": "This is a note from a Reviwer",
+          "RM_Status": "In Progress",
+          "RM_Notes": "This is a note from a RM",
+          "work_item": {
+            "Type": "Loan",
+            "Status": "Closed",
+            "Assignee": "Aaron Bridgers",
+            "Notes": "A note for work2",
+            "Obligor_Number": "12345",
+            "id": 22
+          }
+        },
+        {
+          "Contract_Status": "Non Compliant",
+          "RM_Name": "Jane Doe",
+          "Underwritter": "John Doe",
+          "Business_Unit": "Commercial Lending",
+          "Customer": "Bruce Wayne",
+          "SNC": "No",
+          "SNC_Type": "NA",
+          "Maturity_Date": "03/21/2025",
+          "Risk_Rating": 4.3,
+          "PAM": "No",
+          "Obligor_Number": "12345",
+          "LIBOR_Obligation_Number": "Loan_8989",
+          "Loan_Amount": 500000000,
+          "Document_Type": "Note",
+          "Review_Status": "Complete",
+          "Digital_Text": "link",
+          "Original_File": "link",
+          "Reviwer_Notes": "This is a note from a Reviwer",
+          "RM_Status": "In Progress",
+          "RM_Notes": "This is a note from a RM",
+          "work_item": {
+            "Type": "Loan",
+            "Status": "Closed",
+            "Assignee": "Nathan English",
+            "Notes": "A note for work3",
+            "Obligor_Number": "12345",
+            "id": 33
+          }
+        },
+        {
+          "Contract_Status": "Compliant",
+          "RM_Name": "Ricky Bobby",
+          "Underwritter": "Dale Earnhardt",
+          "Business_Unit": "Commercial Lending",
+          "Customer": "Bruce Wayne",
+          "SNC": "No",
+          "SNC_Type": "N/A",
+          "Maturity_Date": "04/01/2027",
+          "Risk_Rating": 4.3,
+          "PAM": "No",
+          "Obligor_Number": "12345",
+          "LIBOR_Obligation_Number": "Loan_8989",
+          "Loan_Amount": 500000000,
+          "Document_Type": "Note",
+          "Review_Status": "Complete",
+          "Digital_Text": "link",
+          "Original_File": "link",
+          "Reviwer_Notes": "This is a note from a Reviwer",
+          "RM_Status": "In Progress",
+          "RM_Notes": "This is a note from a RM",
+          "work_item": {
+            "Type": "Loan",
+            "Status": "Open",
+            "Assignee": "Wes Bailey",
+            "Notes": "A note for work4",
+            "Obligor_Number": "12345",
+            "id": 44
+          }
+        }       
+      ],
+      "id": 1
     }
-  ],
-  "movies": [
-    {
-      "id": 1,
-      "title": "Titanic",
-      "watched": 15
-    },
-    {
-      "id": 2,
-      "title": "You Got Mail",
-      "watched": 5
-    },
-    {
-      "id": 3,
-      "title": "The Notebook",
-      "watched": 10
-    },
-    {
-      "id": 4,
-      "title": "Sleepless in Seattle",
-      "watched": 3
-    },
-    {
-      "id": 5,
-      "title": "Casablanca",
-      "watched": 2
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

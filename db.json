@@ -7,7 +7,7 @@
       "img2": "001_2.png",
       "manufacture": "Healgen",
       "link": "https://www.healgen.com/if-respiratory-covid-19",
-      "body": "<p></p>"
+      "body": ""
     }, {
       "id": 2,
       "title": "Rapid COVID-19 Antigen Test",
@@ -15,7 +15,7 @@
       "img2": "002_2.png",
       "manufacture": "Healgen",
       "link": "https://www.healgen.com/if-respiratory-covid-19-antigen",
-      "body": "<p>/p>"
+      "body": ""
     }, {
       "id": 3,
       "title": "Assorted PPE",
@@ -23,7 +23,7 @@
       "img2": "003_2.jpg",
       "manufacture": "Superior Glove",
       "link": "https://www.superiorglove.com/en/catalogsearch/result/?q=dispos",
-      "body": "<p>/p>"
+      "body": ""
     }, {
       "id": 4,
       "title": "PPE, Gloves",
@@ -31,7 +31,7 @@
       "img2": "004_2.jpg",
       "manufacture": "Hartalega",
       "link": "https://hartalega.com.my/products/healthcare-laboratory-industrial-gloves/?tab=healthcare",
-      "body": "<p>/p>"
+      "body": ""
     }, {
       "id": 5,
       "title": "PPE, Gloves",
@@ -39,7 +39,7 @@
       "img2": "005_2.jpg",
       "manufacture": "Skymed",
       "link": "http://skymed.in/product-category/surgical-gloves/",
-      "body": "<p>/p>"
+      "body": ""
     }, {
       "id": 6,
       "title": "PPE, Gloves",
@@ -47,7 +47,7 @@
       "img2": "006_2.jpg",
       "manufacture": "Cranberry Global",
       "link": "https://www.cranberryglobal.com/evolve",
-      "body": "<p>/p>"
+      "body": ""
     }, {
       "id": 7,
       "title": "PPE, Gloves",
@@ -55,7 +55,7 @@
       "img2": "007_2.png",
       "manufacture": "Sri Trang Gloves",
       "link": "https://www.sritranggloves.com/en#fp-product",
-      "body": "<p>/p>"
+      "body": ""
     }, {
       "id": 8,
       "title": "Health Care Particulate Respirator and Surgical Mask 1860, N95",
@@ -63,7 +63,7 @@
       "img2": "008_2.jpg",
       "manufacture": "3M",
       "link": "https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Health-Care-Particulate-Respirator-and-Surgical-Mask-1860-N95-120-EA-Case/?N=5002385+3294795990&rt=rud",
-      "body": "<p>/p>"
+      "body": ""
     }, {
       "id": 9,
       "title": "Particulate Respirator 8210, N95",
@@ -71,7 +71,7 @@
       "img2": "009_2.jpg",
       "manufacture": "3M",
       "link": "https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Particulate-Respirator-8210-N95-160-EA-Case/?N=5002385+3294780268&rt=rud",
-      "body": "<p>/p>"
+      "body": ""
     }
   ]
 }
